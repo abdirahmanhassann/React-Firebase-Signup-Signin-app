@@ -1,0 +1,151 @@
+.naav{
+  background-color:#ffffff;
+  height:70px ;
+  color:rgb(40, 40, 40) ;
+margin-right:0px;
+display: flexbox;
+flex-direction: row;
+display: flex;
+flex-direction: row;
+}
+.reactlogo{
+  height: 80%;
+}
+
+body{
+  color:rgb(34, 34, 34);
+  background-color: white;
+
+}
+.divv{
+  height: max-content;
+  width: 258px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  background-color: black;
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 19px;
+  box-shadow: 1px 1px 20px 0px #000000c9;
+  color: white;
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+  grid-template-rows: 3fr 3fr 3fr;
+
+}
+.contactbutton{
+  height: fit-content;
+  justify-content: center;
+  width: 522px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  background-color: white;
+  padding: 12px;
+  margin-bottom: 19px;
+  box-shadow: 1px 1px 20px 0px #000000c9;
+  color: rgb(37, 37, 37);
+  font-size: larger;
+  font-weight: lighter;
+}
+.contactbutton:hover{
+  background-color: #f9f9f9;
+  transition: 0.1s;
+
+}
+.picturr{
+  height: 180px;
+}
+.superdiv{
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 105px 98px 101px 100px;
+  grid-template-rows: 1.5fr 1.5fr 1.5fr 1.5fr;
+padding: 0em;
+}
+.podiv{
+  width: 40%;
+  height: 40%;
+}
+.fform{
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  width: fit-content;
+  justify-self: center;
+  gap: 48px;
+  /*margin-left: 37%;
+*/
+
+}
+.signinform{
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  width: -moz-fit-content;
+  /* width: fit-content; */
+  justify-self: center;
+  gap: 48px;
+  width: inherit;
+}
+.para{
+  height: fit-content;
+  justify-content: center;
+  width: 522px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  background-color: white;
+  padding: 12px;
+  margin-bottom: 19px;
+  box-shadow: 1px 1px 20px 0px #000000c9;
+  color: #474747;
+
+}
+input{
+  font-size: large;
+  font-weight: lighter;
+  color: #474747;
+  /* gap: 4em; */
+  /* border-bottom: 1px black solid; */
+  border: none;
+  border-bottom: 1px black solid;
+  /* border-radius: 4px; */
+  height: 35px;  
+}
+input:focus {
+  background: white;
+  border: 1px solid grey;
+}
+.flex{
+  gap:1em
+}
+.checkbox{
+  height: 19px;
+    width: 22px;
+    cursor: pointer;
+}
+button{
+  height: 49px;
+    width: -webkit-fill-available;
+    border-radius: 4px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+nav{
+  margin-bottom: 40px;
+    margin-left: 13px;
+
+}
+a{
+  margin-right: 20px;
+  text-decoration-line: none;
+
+}
+a:hover{
+  color:#6e6e6e
+}
